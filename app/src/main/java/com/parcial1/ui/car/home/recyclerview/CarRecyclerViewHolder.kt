@@ -7,4 +7,5 @@ import com.parcial1.databinding.CarItemBinding
 
 
 class CarRecyclerViewHolder(private val binding: CarItemBinding): RecyclerView.ViewHolder(binding.root) {
+    fun bind(car: CarModel, clickListener: (CarModel))
 }
